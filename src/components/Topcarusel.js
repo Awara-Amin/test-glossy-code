@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBackground from "../images/home_BackgroundPage.jpeg";
 
-// import TextAnimation from "./TextAnimation";
-import data from "../utils/data";
+// import data from "../utils/data";
+import TextAnimation from "./TextAnimation";
 // console.log("kaka lists here");
 // console.log(data);
 // console.log(data.homePage[0].backgroundImage);
@@ -26,7 +26,7 @@ export default function Topcarusel() {
           <Col>
             <h1>
               {/* <span>Glossy</span> Code */}
-              {/* <TextAnimation></TextAnimation> Code */}
+              <TextAnimation></TextAnimation> Code
             </h1>
           </Col>
         </Row>
@@ -35,7 +35,7 @@ export default function Topcarusel() {
       <Container className="glossyCodeTexts">
         <Row>
           <Col className="w 40%">
-            <h2>We Are Flexible Webdesiners</h2>
+            <h2 className="brightness">We Are Flexible Webdesigners</h2>
           </Col>
         </Row>
       </Container>

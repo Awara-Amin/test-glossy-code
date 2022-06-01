@@ -20,7 +20,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { Helmet } from "react-helmet-async";
 import ListGroup from "react-bootstrap/ListGroup";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 // import Rating from "../components/Rating";
 import ScrollToTop from "../components/ScrollToTop";
 // import TextAnimationForContact from "../components/TextAnimationForContact";
@@ -71,7 +71,8 @@ export default function ServiceScreen(props) {
               <Col md={6}>
                 <img
                   className="img-large"
-                  src={"." + item.image}
+                  // src={"." + item.image}
+                  src={item.image}
                   alt={item.name}
                 ></img>
               </Col>

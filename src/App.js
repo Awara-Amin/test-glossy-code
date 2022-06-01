@@ -31,9 +31,9 @@ function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto w-100  justify-content-end">
                   <Link to="/" className="nav-link">
-                    <i className="fa fa-heart" aria-hidden="true">
-                      HOME
-                    </i>
+                    {/* <i className="fa fa-heart" aria-hidden="true"> */}
+                    HOME
+                    {/* </i> */}
                   </Link>
 
                   <Link to="/aboutusscreen" className="nav-link">

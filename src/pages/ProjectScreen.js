@@ -11,6 +11,7 @@ import { initialProjects } from "../utils/initialProjects";
 import data from "../utils/data";
 import OtherSkills from "../components/OtherSkills";
 import ProjectBackground from "../images/project_backgroundPage.jpeg";
+import TextAnimation from "../components/TextAnimation";
 
 export default function ProjectScreen() {
   const [mydata, setdata] = useState(initialProjects);
@@ -28,7 +29,8 @@ export default function ProjectScreen() {
         <Container className="glossyCodeName">
           <Row>
             <Col>
-              <h1>Glossy Code</h1>
+              {/* <h1>Glossy Code</h1> */}
+              <TextAnimation></TextAnimation> Code
             </Col>
           </Row>
         </Container>

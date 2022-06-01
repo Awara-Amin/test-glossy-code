@@ -36,7 +36,7 @@ const data = {
       name: "Web Development",
       category: "Shirts",
       image:
-        "https://thumbs.dreamstime.com/b/business-consulting-concept-virtual-screen-business-consulting-concept-virtual-screen-153994074.jpg",
+        "https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-125302913.jpg",
       price: 100,
       countInStock: 10,
       brand: "Nike",
@@ -47,7 +47,7 @@ const data = {
     {
       _id: "2",
       slag: "12",
-      name: "Web & Graphic Design",
+      name: "Graphic Design",
       category: "Shirts",
       // image: "./images/web_design.jpeg",
       image:
@@ -76,10 +76,10 @@ const data = {
     {
       _id: "4",
       slag: "14",
-      name: "IT Solution & Consultancy",
+      name: "Consulting",
       category: "Shirts",
       image:
-        "https://web.stevens.edu/ses/images/fileadmin/images/21-networking.jpg",
+        "https://thumbs.dreamstime.com/b/business-consulting-concept-virtual-screen-business-consulting-concept-virtual-screen-153994074.jpg",
       price: 100,
       countInStock: 10,
       brand: "Nike",

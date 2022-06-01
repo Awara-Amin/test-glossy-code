@@ -15,6 +15,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import data from "../utils/data";
 import ContactBackground from "../images/contact_BackgroundPage.jpeg";
 import Mailer from "../components/Mailer";
+import TextAnimation from "../components/TextAnimation";
 
 export default function ContactScreen() {
   console.log(data);
@@ -33,7 +34,8 @@ export default function ContactScreen() {
         <Container className="glossyCodeName">
           <Row>
             <Col>
-              <h1>Glossy Code</h1>
+              {/* <h1>Glossy Code</h1> */}
+              <TextAnimation></TextAnimation> Code
             </Col>
           </Row>
         </Container>
@@ -57,7 +59,7 @@ export default function ContactScreen() {
               sm={4}
               className="d-flex justify-content-center align-center align-items-center agency "
             >
-              <h2>
+              <h2 className="text-color1">
                 Contact us 24/7, our service department reply you right back
               </h2>
             </Col>

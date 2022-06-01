@@ -14,6 +14,7 @@ import Container from "react-bootstrap/Container";
 import data from "../utils/data";
 import ScrollToTop from "../components/ScrollToTop";
 import AboutBackground from "../images/about_backgroundPage.webp";
+import TextAnimation from "../components/TextAnimation";
 
 export default function ContactScreen() {
   console.log("categories at homeScreen");
@@ -33,7 +34,8 @@ export default function ContactScreen() {
         <Container className="glossyCodeName">
           <Row>
             <Col>
-              <h1>Glossy Code</h1>
+              {/* <h1>Glossy Code</h1> */}
+              <TextAnimation></TextAnimation> Code
             </Col>
           </Row>
         </Container>

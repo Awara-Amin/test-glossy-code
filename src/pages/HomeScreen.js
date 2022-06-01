@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Carousel } from "react-responsive-carousel";
 import data from "../utils/data";
@@ -22,11 +22,15 @@ import Button from "react-bootstrap/Button";
 import Service from "../components/Service";
 import Topcarusel from "../components/Topcarusel";
 import ScrollToTop from "../components/ScrollToTop";
+import TextAnimationForContact from "../components/TextAnimationForContact";
+import { initialProjects } from "../utils/initialProjects";
+import Category from "../components/Category";
 // import Rating from "../components/Rating";
 // import ScrollToTop from "../components/ScrollToTop";
 // import TextAnimationForContact from "../components/TextAnimationForContact";
 
 export default function HomeScreen() {
+  const [mydata, setdata] = useState(initialProjects);
   //   const dispatch = useDispatch();
   //   const productList = useSelector((state) => state.productList);
   //   const { loading, error, products } = productList;
@@ -96,9 +100,9 @@ export default function HomeScreen() {
         {/*                       we need this class for our work background */}
         <Container fluid className="containerOurWork">
           <Row>
-            <Col className="d-flex justify-content-center">
+            <Col className="d-flex justify-content-center marginTandB">
               <strong>
-                <h1>Our Amazing Works</h1>
+                <h1>Some of Our Recent Projects</h1>
               </strong>
             </Col>
           </Row>
@@ -106,12 +110,10 @@ export default function HomeScreen() {
           <h2 className="titleOurAmazinWork1">Our Amazing Works</h2>
         </div> */}
 
-          {/* <Row>
-            {categories.length === 0 && (
-              <MessageBox>No Categories found kaka</MessageBox>
-            )}
+          <Row>
+            {mydata.length === 0 && console.log("No Categories found kaka")}
 
-            {categories.map((category) => (
+            {mydata.oldProjects.slice(0, 6).map((category) => (
               <Col
                 key={category._id}
                 xs={12}
@@ -123,7 +125,16 @@ export default function HomeScreen() {
                 <Category category={category}></Category>
               </Col>
             ))}
-          </Row> */}
+          </Row>
+          <Row className="d-flex justify-content-center marginTandB">
+            <Col xs={12} sm={6} md={4} lg={4}>
+              <a href="/projectscreen" className="item ">
+                <button class="btn btn-primary" type="submit">
+                  See more of our projects
+                </button>
+              </a>
+            </Col>
+          </Row>
         </Container>
 
         <Container className="d-flex justify-content-center align-center align-items-center spaceT">
@@ -147,7 +158,7 @@ export default function HomeScreen() {
               className="d-flex justify-content-center align-center align-items-center"
             >
               {/* <span className="contactsUs">Contact us</span> */}
-              {/* <TextAnimationForContact></TextAnimationForContact> */}
+              <TextAnimationForContact></TextAnimationForContact>
               <span>
                 <a href="/contactscreen" className="item ">
                   <i className="fa fa-envelope coloredIcon-1"></i>
