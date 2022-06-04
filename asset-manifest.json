@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-glossy-code/static/css/main.d08dcc56.css",
+    "main.js": "/test-glossy-code/static/js/main.3194cee0.js",
+    "static/js/787.a888569e.chunk.js": "/test-glossy-code/static/js/787.a888569e.chunk.js",
+    "static/media/project_backgroundPage.jpeg": "/test-glossy-code/static/media/project_backgroundPage.f064b9fb6ebb69830423.jpeg",
+    "static/media/about_backgroundPage.webp": "/test-glossy-code/static/media/about_backgroundPage.b70181d353ab0332a461.webp",
+    "static/media/home_BackgroundPage.jpeg": "/test-glossy-code/static/media/home_BackgroundPage.be92166199b5382dfd2d.jpeg",
+    "static/media/contactBackground.jpeg": "/test-glossy-code/static/media/contactBackground.b8beaa9ab756bb45d547.jpeg",
+    "static/media/contact_BackgroundPage.jpeg": "/test-glossy-code/static/media/contact_BackgroundPage.b8beaa9ab756bb45d547.jpeg",
+    "static/media/background2.jpeg": "/test-glossy-code/static/media/background2.74734155c3db883b8e63.jpeg",
+    "static/media/spinner.gif": "/test-glossy-code/static/media/spinner.d218b2b117babcb3ccb4.gif",
+    "static/media/logoSm.png": "/test-glossy-code/static/media/logoSm.bf12e058df0317d12723.png",
+    "index.html": "/test-glossy-code/index.html",
+    "main.d08dcc56.css.map": "/test-glossy-code/static/css/main.d08dcc56.css.map",
+    "main.3194cee0.js.map": "/test-glossy-code/static/js/main.3194cee0.js.map",
+    "787.a888569e.chunk.js.map": "/test-glossy-code/static/js/787.a888569e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d08dcc56.css",
+    "static/js/main.3194cee0.js"
+  ]
+}
